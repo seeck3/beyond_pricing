@@ -1,0 +1,105 @@
+.calendly-container{
+    padding: 15px;
+}
+
+.caldenly {
+    display: flex;
+    justify-content: center;
+}
+
+.back-button {
+  background-color: rgba(51, 51, 51, 0.05);
+  border-radius: 8px;
+  border-width: 0;
+  color: #333333;
+  cursor: pointer;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 10px 12px;
+}
+
+.back-button:hover {
+    background-color: rgba(138, 141, 165, 0.55);
+}
+
+.react-calendar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.react-calendar__tile, .react-calendar__navigation__label, .react-calendar__navigation__arrow  {
+    background-color: rgba(38, 0, 255, 0.05);
+    border-radius: 5px;
+    border-width: 0;
+    cursor: pointer;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 10px 12px;
+}
+
+.react-calendar__tile:disabled {
+    background-color: rgba(138, 141, 165, 0.55);
+    cursor: not-allowed
+}
+
+.react-calendar__month-view__weekdays__weekday {
+    text-align: center;
+}
+.react-calendar__tile--range {
+    background-color: rgba(0, 30, 255, 0.55);
+}
+.react-calendar .react-calendar__tile--hoverStart {
+    background-color: rgba(55, 66, 151, 0.35);
+  }
+  
+  .react-calendar .react-calendar__tile--hoverEnd {
+    background-color: rgba(55, 66, 151, 0.35);
+  }
+
+
+abbr[title] {
+    text-decoration: none;
+} 
+
+.update-base-price {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+.base-price-input {
+    height: 30px;
+    padding: 0px 16px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.tile-content{
+    height: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.popover-content-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.15);
+    color: white
+}
+
+.popover-content-2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: rgba(0, 0, 0, 0.25);
+    color: white
+}
+.popover-content-left, .popover-content-right{
+    text-align: end;
+}
